@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(229, 24%, 58%); }
+  </style>
+</head>
+<body>
+<main class="main-container">
+  <header class="left">
+    <h1 class="hero-title">Learn to code by watching others</h1>
+    <p class="hero-text">See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+  but understanding how developers think is invaluable.</p>
+  </header>
+
+  <article class="right">
+    <h2 class="price"><span class="price-trial">Try it free 7 days</span> then $20/mo. thereafter</h2>
+    <form action="#" class="form" id="form">
+
+      <div class="form-input-area form-fname">
+      <input type="text" class="form-input" id="fname" name="fname" placeholder="First Name">
+      <i class="error-icon noShow" id="fname-error-icon"></i>
+      <small class="error-text noShow"></small>
+      </div>
+
+
+      <div class="form-input-area form-lname">
+      <input type="text" class="form-input" id="lname" name="lname" placeholder="Last Name">
+      <i class="error-icon noShow" id="lname-error-icon"></i>
+      <small class="error-text noShow"></small>
+      </div>
+
+
+
+      <div class="form-input-area form-email">
+      <input type="email" class="form-input" id="email" name="email" placeholder="Email Adress">
+      <i class="error-icon noShow" id="email-error-icon"></i>
+      <small class="error-text noShow"></small>
+      </div>
+
+      <div class="form-input-area form-password">
+      <input type="password" class="form-input" id="password" name="password" placeholder="Password">
+      <i class="error-icon noShow" id="password-error-icon"></i>
+      <small class="error-text noShow"></small>
+      </div>
+
+      <div class="form-btn">
+      <input type="submit" id="submit-btn" class="submit-btn" value="Claim your free trial" aria-label="submit button">
+      </div>
+
+      <small class="terms">By clicking the button, you are agreeing to our <a href="#" class="terms-link">Terms and Services</a></small>
+    </form>
+  </article>
+
+</main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://ytwebxdesign.com/">YTWeb&Design</a>.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
