@@ -1,6 +1,7 @@
 # Frontend Mentor - Intro component with sign up form
 
 <img src="https://github.com/Yuko-code/Yuko-code/blob/main/signup.png" width="900">
+This is a solution to the [Intro component with sign-up form](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1/hub/intro-component-with-signup-form-arLCgBX01). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Welcome! 👋
 
@@ -10,9 +11,6 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
-# Frontend Mentor - NFT preview card component solution
-
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
